@@ -118,7 +118,8 @@ p {
 }
 
 .link-contacts {
-  display: block;
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -136,7 +137,7 @@ p {
 /* --------Hero-------- */
 
 .hero {
-  background-color: var(--second-background);
+  background-color: #c4c4c4;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -383,7 +384,7 @@ p {
 }
 
 .clients-link:hover,
-.clients-link :focus {
+.clients-link:focus {
   border-color: var(--color-text-logo);
   color: var(--color-text-logo);
 }
